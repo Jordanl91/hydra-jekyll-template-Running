@@ -3,10 +3,10 @@ layout: page
 ---
 
 <div class="text-container">
-	{% assign blog = site.pages | where: "path", "blog/index.html" | first %}
+	{% assign case-studies = site.pages | where: "path", "case-studies/index.html" | first %}
 
-	{% if blog.title %}
-		<h2>{{ blog.title }}</h2>
+	{% if case-studies.title %}
+		<h2>{{ case-studies.title }}</h2>
 	{% endif %}
 
 	{% if blog.description %}
@@ -14,10 +14,10 @@ layout: page
 	{% endif %}
 
 	<div class="center-text">
-		<span class="blog-filter cross"><a href="{{ site.baseurl }}/case-studies/">{{ page.title | capitalize }}</a></span>
+		<span class="case-studies cross"><a href="{{ site.baseurl }}/case-studies/">{{ page.title | capitalize }}</a></span>
 	</div>
 
-	<ul class="blog-posts">
+	<ul class="cs-posts">
 		{% include list-posts.html posts=page.posts %}
 	</ul>
 </div>
