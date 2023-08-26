@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: JavosecTitle
+title: Javosec | Homepage
 url: "https://github.com/Jordanl91/hydra-jekyll-template-Running"
 baseurl:
 google_analytics_key:
@@ -10,8 +10,9 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jvosec siteicon
-  name: sJavosecit
+description: 
+author:   
+  name: 
   email:
   twitter: # twitter username without the @ symbol
 
