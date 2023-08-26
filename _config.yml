@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Home
+title: Javosec
 url: "https://github.com/Jordanl91/hydra-jekyll-template-Running"
 baseurl:
 google_analytics_key:
@@ -27,7 +27,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/case-sudies/:num/"
 permalink: pretty
 
 defaults:
